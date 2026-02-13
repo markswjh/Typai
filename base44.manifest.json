@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "base44",
+  "app": {
+    "name": "Typai",
+    "slug": "typai",
+    "description": "Launch Typai directly from Base44.",
+    "entrypoint": "https://base44.app/apps/typai/open",
+    "deepLink": "base44://apps/typai/open",
+    "repository": {
+      "provider": "github",
+      "path": "<org-or-user>/Typai"
+    }
+  },
+  "launch": {
+    "openMode": "in-app",
+    "fallbackUrl": "https://base44.app/apps/typai",
+    "params": {
+      "source": "base44"
+    }
+  }
+}
